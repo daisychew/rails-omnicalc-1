@@ -13,7 +13,7 @@ Rails.application.routes.draw do
 
   get("/payment_results", controller: "math", action: "payment_results")
 
-  get ("/random/new", controller: "math", action: "random_new")
+  get("/random/new", controller: "math", action: "random_new")
 
-  get ("/random/results", controller: "math", action: "random_results")
+  get("/random/results", controller: "math", action: "random_results")
 end
