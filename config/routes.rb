@@ -11,7 +11,7 @@ Rails.application.routes.draw do
 
   get("/payment/new", controller: "math", action: "payment_new")
 
-  get("/payment_results", controller: "math", action: "payment_results")
+  get("/payment/results", controller: "math", action: "payment_results")
 
   get("/random/new", controller: "math", action: "random_new")
 
